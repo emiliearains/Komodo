@@ -20,6 +20,12 @@ namespace KomodoClassLibrary
             TeamName = teamName;
             TeamID = teamId;
         }
+        public DevTeam(string teamName, int teamId, List<int> devs)
+        {
+            DeveloperIDs = devs;
+            TeamName = teamName;
+            TeamID = teamId;
+        }
         public void AddDeveloperToTeam(int developerID)
         {
             DeveloperIDs.Add(developerID);

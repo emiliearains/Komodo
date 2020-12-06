@@ -15,13 +15,13 @@ namespace KomodoClassLibrary
         }
         public void SeedDevelopers()
         {
-            Developers.Add(new Developer("Dolly Parton", 1, new DateTime(2022, 12, 27)));
+            Developers.Add(new Developer("Dolly Parton", 1, new DateTime(2022, 12, 22)));
             Developers.Add(new Developer("Willie Nelson", 2, new DateTime(2021, 7, 1)));
-            Developers.Add(new Developer("Johnny Cash", 3, new DateTime(2020, 8, 6)));
-            Developers.Add(new Developer("Loretta Lynn", 4, new DateTime(2020, 1, 2)));
+            Developers.Add(new Developer("Johnny Cash", 3, new DateTime(2022, 8, 6)));
+            Developers.Add(new Developer("Loretta Lynn", 4, new DateTime(2022, 1, 2)));
             Developers.Add(new Developer("George Jones", 5, new DateTime(2020, 10, 17)));
             Developers.Add(new Developer("Tammy Wynette", 6, new DateTime(2020, 12, 25)));
-            Developers.Add(new Developer("Hank Williams", 7, new DateTime(2020, 3, 5)));
+            Developers.Add(new Developer("Hank Williams", 7, new DateTime(2020, 12, 27)));
             Developers.Add(new Developer("Conway Twitty", 8, new DateTime(2020, 5, 5)));
             Developers.Add(new Developer("Glen Campbell", 9, new DateTime(2020, 7, 12)));
             Developers.Add(new Developer("Patsy Cline", 10, new DateTime(2020, 10, 12)));
